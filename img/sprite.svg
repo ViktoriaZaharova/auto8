@@ -134,4 +134,9 @@
 	<symbol id="arrow-bottom" viewBox="0 0 12 8">
 		<path d="M1 1L6 6L11 1" stroke-width="2" />
 	</symbol>
+
+	<symbol id="close" viewBox="0 0 20 20">
+        <path d="M1 1L19 19"/>
+        <path d="M19 1L0.999999 19"/>
+    </symbol>
 </svg>

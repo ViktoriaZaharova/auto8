@@ -20,6 +20,8 @@ footer .logo {
       -ms-flex-pack: start;
           justify-content: flex-start;
   color: #fff;
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
 }
 footer .list-language {
   margin: 30px 0 0;
@@ -207,6 +209,10 @@ footer .list-contacts-item__icon {
 
 .modal-body {
   padding: 10px 0 0;
+}
+.modal-body .box-text {
+  margin: 0 auto 20px;
+  text-align: center;
 }
 
 .modal-backdrop.show {

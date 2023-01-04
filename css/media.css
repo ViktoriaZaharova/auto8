@@ -97,6 +97,7 @@
     width: 100%;
     left: 0;
     top: 0;
+    padding: 12px 0;
   }
   header .menu, header .phone, header .list-messengers, header .list-language {
     display: none;
@@ -145,6 +146,7 @@
   }
   .benefit .logo-company {
     max-width: 120px;
+    height: 26px;
   }
   .priority-box {
     padding: 13px 5px;
@@ -366,5 +368,19 @@
   }
   .benefit-table-col h3 {
     font-size: 10px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  header .menu li a {
+    padding: 3px 0;
+  }
+  header .menu .dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+  header .menu .dropdown-menu {
+    margin: 0;
+  }
+  header .menu .dropdown-menu .dropdown-menu {
+    margin: -1px 0 0;
   }
 }

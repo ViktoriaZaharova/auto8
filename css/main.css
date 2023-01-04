@@ -551,6 +551,7 @@ b, strong {
 .home {
   background: -webkit-gradient(linear, left top, right top, color-stop(5.23%, #16A154), to(#0E6438));
   background: linear-gradient(90deg, #16A154 5.23%, #0E6438 100%);
+  padding: 39px 0;
 }
 .home .box-text {
   color: #fff;
@@ -727,9 +728,17 @@ b, strong {
 }
 .benefit-table-col .logo-company {
   max-width: 173px;
-  height: 100%;
+  height: 34px;
   margin: 0 auto;
-  background: #E7E7E7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .benefit-table-col .logo-company img {
   max-height: 100%;
@@ -1452,10 +1461,6 @@ textarea::placeholder {
 
 /*==========	success-page end	==========*/
 /*==========	buy cars	==========*/
-.home-buy-cars {
-  padding: 39px 0;
-}
-
 .which-cars-buy {
   padding: 100px 0;
 }
@@ -1488,6 +1493,15 @@ textarea::placeholder {
 
 .documents-v2 {
   padding: 100px 0 90px;
+}
+.documents-v2 .documents-box {
+  margin: 0 50px 20px 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.documents-v2 .documents-box:last-child {
+  margin: 0 0 20px;
 }
 
 /*==========	buy cars end	==========*/
