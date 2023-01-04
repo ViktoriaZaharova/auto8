@@ -1,0 +1,174 @@
+@import "fonts"
+@import "vars"
+
+/*==========	footer	==========*/
+footer
+	background: linear-gradient(90deg, #16A154 5.23%, #0E6438 100%)
+	color: #fff
+	padding: 50px 0
+	.list-messengers
+		margin: 0 0 0 8px
+		li
+			a
+				width: 20px
+				height: 20px
+				min-width: 20px
+	.logo
+		margin: 0
+		justify-content: flex-start
+		color: #fff
+	.list-language
+		margin: 30px 0 0
+	.list-language-item
+		color: #fff
+		&.active
+			color: #BEBEBE		
+	.list-contacts-item
+		&__link
+			color: #fff
+			&:hover
+				color: $yellow
+		&__icon
+			fill: #fff		
+
+.footer-menu
+	margin: 0 auto
+	width: fit-content
+	li
+		margin: 0 0 20px
+		&:last-child
+			margin: 0
+		a
+			color: #fff
+			&:hover
+				color: $yellow
+
+.list-contacts-item
+	display: flex
+	align-items: flex-start
+	margin: 0 0 20px
+	line-height: 145%
+	&:last-child
+		margin: 0
+	&__icon
+		display: flex
+		align-items: center
+		justify-content: center
+		fill: #0D734C
+		width: 20px
+		height: 20px
+		min-width: 20px
+		margin: 0 10px 0 0
+	&__link
+		color: #303030
+		display: flex
+		align-items: center
+		&:hover
+			color: $accent
+
+.list-contacts			
+	.list-messengers
+		margin: 0 0 0 10px
+		li
+			a
+				width: 20px
+				height: 20px
+				min-width: 20px		
+
+.list-messengers
+	display: flex
+	align-items: center
+	li
+		margin: 0 10px 0 0
+		&:last-child
+			margin: 0
+		a
+			display: flex
+			align-items: center
+			justify-content: center
+			border-radius: 50%
+			width: 30px
+			height: 30px
+			min-width: 30px
+/*==========	footer end	==========*/
+
+/*==========	modal	==========*/
+.modal
+	padding: 0 !important
+
+.modal-dialog
+	max-width: 520px
+
+.modal-content
+	box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25)
+	border: 1px solid #DCE0E7
+	radius: 5px
+	background: #fff
+	padding: 50px 50px 60px
+	.form-callback
+		width: 100%
+		max-width: 300px
+		margin: 0 auto
+		label
+			margin: 0 0 10px
+			width: 100%
+			max-width: none
+		input
+			padding: 0 20px
+
+.modal-header
+	padding: 0
+	border: none
+	.close
+		position: absolute
+		padding: 0
+		margin: 0
+		top: 15px
+		right: 15px
+		opacity: 1
+		z-index: 1
+		cursor: pointer
+		width: 18px
+		height: 18px
+		stroke: #C4C4C4
+		display: flex
+		align-items: center
+		justify-content: center
+
+.modal-title
+	text-align: center
+	margin: 0 auto
+	line-height: 1
+
+.modal-body
+	padding: 10px 0 0
+
+
+.modal-backdrop.show
+	opacity: .2
+
+#thanksModal
+	h2
+		max-width: none
+	.check-icon
+		margin: 0 auto 30px
+		display: flex
+		align-items: center
+		justify-content: center
+		max-width: 70px
+		width: 100%
+		img
+			width: 100%
+	.box-text
+		text-align: center
+		margin: 10px auto 30px
+	.btn
+		max-width: 200px
+		margin: 0 auto
+
+.modal-dialog-scrollable .modal-content
+	overflow: visible
+
+.modal-dialog-scrollable .modal-body
+	overflow-y: visible
+/*==========	modal end	==========*/	

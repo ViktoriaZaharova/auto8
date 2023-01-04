@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"); /*==========	footer	==========*/
+footer {
+  background: -webkit-gradient(linear, left top, right top, color-stop(5.23%, #16A154), to(#0E6438));
+  background: linear-gradient(90deg, #16A154 5.23%, #0E6438 100%);
+  color: #fff;
+  padding: 50px 0;
+}
+footer .list-messengers {
+  margin: 0 0 0 8px;
+}
+footer .list-messengers li a {
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+}
+footer .logo {
+  margin: 0;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  color: #fff;
+}
+footer .list-language {
+  margin: 30px 0 0;
+}
+footer .list-language-item {
+  color: #fff;
+}
+footer .list-language-item.active {
+  color: #BEBEBE;
+}
+footer .list-contacts-item__link {
+  color: #fff;
+}
+footer .list-contacts-item__link:hover {
+  color: #FFBE18;
+}
+footer .list-contacts-item__icon {
+  fill: #fff;
+}
+
+.footer-menu {
+  margin: 0 auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.footer-menu li {
+  margin: 0 0 20px;
+}
+.footer-menu li:last-child {
+  margin: 0;
+}
+.footer-menu li a {
+  color: #fff;
+}
+.footer-menu li a:hover {
+  color: #FFBE18;
+}
+
+.list-contacts-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 0 0 20px;
+  line-height: 145%;
+}
+.list-contacts-item:last-child {
+  margin: 0;
+}
+.list-contacts-item__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  fill: #0D734C;
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  margin: 0 10px 0 0;
+}
+.list-contacts-item__link {
+  color: #303030;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.list-contacts-item__link:hover {
+  color: #0D734C;
+}
+
+.list-contacts .list-messengers {
+  margin: 0 0 0 10px;
+}
+.list-contacts .list-messengers li a {
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+}
+
+.list-messengers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.list-messengers li {
+  margin: 0 10px 0 0;
+}
+.list-messengers li:last-child {
+  margin: 0;
+}
+.list-messengers li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  min-width: 30px;
+}
+
+/*==========	footer end	==========*/
+/*==========	modal	==========*/
+.modal {
+  padding: 0 !important;
+}
+
+.modal-dialog {
+  max-width: 520px;
+}
+
+.modal-content {
+  -webkit-box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+  border: 1px solid #DCE0E7;
+  radius: 5px;
+  background: #fff;
+  padding: 50px 50px 60px;
+}
+.modal-content .form-callback {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.modal-content .form-callback label {
+  margin: 0 0 10px;
+  width: 100%;
+  max-width: none;
+}
+.modal-content .form-callback input {
+  padding: 0 20px;
+}
+
+.modal-header {
+  padding: 0;
+  border: none;
+}
+.modal-header .close {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 15px;
+  right: 15px;
+  opacity: 1;
+  z-index: 1;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  stroke: #C4C4C4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.modal-title {
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1;
+}
+
+.modal-body {
+  padding: 10px 0 0;
+}
+
+.modal-backdrop.show {
+  opacity: 0.2;
+}
+
+#thanksModal h2 {
+  max-width: none;
+}
+#thanksModal .check-icon {
+  margin: 0 auto 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 70px;
+  width: 100%;
+}
+#thanksModal .check-icon img {
+  width: 100%;
+}
+#thanksModal .box-text {
+  text-align: center;
+  margin: 10px auto 30px;
+}
+#thanksModal .btn {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.modal-dialog-scrollable .modal-content {
+  overflow: visible;
+}
+
+.modal-dialog-scrollable .modal-body {
+  overflow-y: visible;
+}
+
+/*==========	modal end	==========*/	
