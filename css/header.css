@@ -249,7 +249,7 @@ header .list-messengers {
   background: #fff;
   max-width: 302px;
   right: 0;
-  bottom: 0;
+  top: 0;
   position: fixed;
   z-index: 6;
   overflow-y: auto;
